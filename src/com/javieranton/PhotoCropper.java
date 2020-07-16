@@ -1,5 +1,5 @@
 /*
- * Copyright comment here
+ * no copyright... do what you want with this
  */
 package com.javieranton;
 
@@ -30,9 +30,8 @@ import com.codename1.util.OnComplete;
 import java.io.ByteArrayOutputStream;
 
 /**
- * This is a demo class to help you get started building a library
  *
- * @author Your name here
+ * @author Javier Anton
  */
 public class PhotoCropper {
     public static void cropImage(final Image img, int minSize, int destWidth, int destHeight, OnComplete<Image> s, String formTitle, String minimumImageSizeWarningMsg) 
