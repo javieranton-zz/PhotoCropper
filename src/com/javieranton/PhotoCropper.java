@@ -170,6 +170,11 @@ public class PhotoCropper {
                                 pressedRight[0] = true;
                     }
                     @Override
+                    protected int getDragRegionStatus(int x, int y)
+                    {
+                        return DRAG_REGION_LIKELY_DRAG_XY;
+                    }
+                    @Override
                     public void pointerDragged(int[] x, int[] y) {
                         super.pointerDragged(x, y);
                         if(pressedLeft[0] || pressedRight[0] || pressedTop[0] || pressedBottom[0])//resizing
